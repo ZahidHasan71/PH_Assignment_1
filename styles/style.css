@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+/* Shere styles */
+.primary-color{
+    color: #4E47FF;
+}
+.primary-btn{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Header Part */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 1000;
+    color: #4E47FF;
+}
+.banner{
+    text-align: center;
+    padding: 100px 200px 200px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 800;
+    max-width: 1040px;
+    margin: 0 auto;
+    color: #252432;
+    margin-bottom: 37px;
+}
+/* Main Part */
+main{
+    background-color: #F5F8FF;
+}
