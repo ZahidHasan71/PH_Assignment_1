@@ -18,6 +18,13 @@
     border-radius: 5px;
     font-size: 16px;
 }
+.section-title{
+    font-size: 38px;
+    font-weight: 800;
+    color: #252432;
+    margin-bottom: 50px;
+    text-align: center;
+}
 /* Header Part */
 header{
     background-image: url(../Assets/Hero-bg.png);
@@ -77,4 +84,109 @@ main{
     width: 400px;
     height: 390px;
     border-radius: 48px;
+}
+
+.users-container{
+    margin: 50px 150px;
+    text-align: center;
+    background-color: #E5E7FF;
+    padding: 100px 0;
+    border-radius: 20px;
+}
+
+.user-details{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.user-overview h1{
+    font-size: 80px;
+    color: #4E47FF
+}
+.user-overview p{
+    font-size: 24px;
+    color: #252432
+}
+
+.testmonial-container{
+    padding: 50px 150px;
+}
+.testmonial-overview{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.testmonial-details {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px 45px;
+    border: 1px solid #E5E7FF;
+}
+.testmonial-description{
+    margin: 20px 0;
+}
+.star-icon{
+    margin-bottom: 25px;;
+}
+.testmoniol-profile{
+    display: flex;
+    gap: 20px;
+}
+.profile-img{
+    border-radius: 50%;
+}
+.profile-img img{
+    border-radius: 50%;
+}
+.focus-container{
+    padding: 50px 150px;
+    background-color: #fff;
+    margin: 50px 150px;
+    border-radius: 20px;
+}
+.focus-container p{
+    margin: 30px 0;
+    color:#8C8C8C;
+    text-align: center;;
+}
+.focus-container button{
+    display: block;
+    margin: 25px auto;
+}
+.focus-img{
+    margin: 0 auto;
+    text-align: center;
+}
+.focus-img img{
+    border-radius: 50px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+}
+.contact-title{
+    font-size: 97px;
+    max-width: 600px;
+    font-weight: 800;
+    color: #252432;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.contact-form form label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.contact-form input, textarea{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #E5E7FF;
+    width: 520px;
 }
