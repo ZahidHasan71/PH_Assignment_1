@@ -190,3 +190,30 @@ main{
     border: 1px solid #E5E7FF;
     width: 520px;
 }
+
+
+footer{
+    padding: 50px 150px;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+.footer-description{
+    margin: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #8C8C8C;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #8C8C8C;
+    margin-top: 20px;
+}
